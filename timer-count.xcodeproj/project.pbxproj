@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524D04752142F92000F26437 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524D04742142F91F00F26437 /* digital-7.ttf */; };
 		52E92B4B213F8A44004F00AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E92B4A213F8A44004F00AC /* AppDelegate.swift */; };
 		52E92B4D213F8A44004F00AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E92B4C213F8A44004F00AC /* ViewController.swift */; };
 		52E92B50213F8A44004F00AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E92B4E213F8A44004F00AC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		524D04742142F91F00F26437 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 		52E92B47213F8A44004F00AC /* timer-count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timer-count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E92B4A213F8A44004F00AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E92B4C213F8A44004F00AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524D04732142F91100F26437 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				524D04742142F91F00F26437 /* digital-7.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		52E92B3E213F8A44004F00AC = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		52E92B49213F8A44004F00AC /* timer-count */ = {
 			isa = PBXGroup;
 			children = (
+				524D04732142F91100F26437 /* Fonts */,
 				52E92B4A213F8A44004F00AC /* AppDelegate.swift */,
 				52E92B4C213F8A44004F00AC /* ViewController.swift */,
 				52E92B4E213F8A44004F00AC /* Main.storyboard */,
@@ -232,6 +243,7 @@
 				52E92B55213F8A45004F00AC /* LaunchScreen.storyboard in Resources */,
 				52E92B52213F8A45004F00AC /* Assets.xcassets in Resources */,
 				52E92B50213F8A44004F00AC /* Main.storyboard in Resources */,
+				524D04752142F92000F26437 /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +443,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP4MJYAUK6;
 				INFOPLIST_FILE = "timer-count/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +462,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP4MJYAUK6;
 				INFOPLIST_FILE = "timer-count/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
